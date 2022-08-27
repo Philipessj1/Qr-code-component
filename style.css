@@ -19,10 +19,6 @@ body {
   background-color: var(--light-gray);
 }
 
-main {
-  height: 100vh;
-}
-
 p {
   font-size: 0.969rem;
 }
