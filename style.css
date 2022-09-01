@@ -23,41 +23,44 @@ p {
   font-size: 0.969rem;
 }
 
-.component {
-  height: 500px;
-  width: 320px;
+main {
+  height: 31.25rem;
+  width: 20rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   
   margin-inline: auto;
-  margin-top: calc(50vh - 260px);
-  padding: 16px 16px 50px 16px;
-  border-radius: 16px;
+  margin-top: calc(50vh - 16.25rem);
+  padding: 1rem 1rem 3.125rem 1rem;
+  border-radius: 1rem;
   background-color: white; 
 
   text-align: center;
 }
 
-.component img {
-  border-radius: 10px;
+main img {
+  border-radius: 0.625rem;
 }
 
-.component h2 {
+main h1 {
+  font-size: 1.5rem;
   color: var(--dark-blue);
 }
 
-.component p {
+main p {
   color: var(--grayish-blue);
 }
 
 .attribution { 
   position: absolute;
-  bottom: 10px;
-  left: calc(50vw - 132.5px);
-  font-size: 11px; text-align: center; 
+  bottom: 0.625rem;
+  left: calc(50vw - 8.281rem);
+  text-align: center;
+  font-size: 0.688rem; 
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%); 
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
 }
